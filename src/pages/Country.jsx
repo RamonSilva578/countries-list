@@ -1,9 +1,15 @@
-import React from 'react'
+import styled from "styled-components";
+
+const Container = styled.div`
+  display: flex;
+`;
 
 const Country = () => {
   return (
-    <div>Country</div>
-  )
-}
+    <Container>
+      <h1>Country</h1>
+    </Container>
+  );
+};
 
-export default Country
+export default Country;
